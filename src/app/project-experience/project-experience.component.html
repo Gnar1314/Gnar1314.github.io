@@ -1,0 +1,20 @@
+<div class="container mt-4">
+  <h2 class="mb-4 title">Project Experience</h2>
+
+  <div class="row">
+    <div
+      class="col-md-6 mb-4"
+      *ngFor="let project of projectExperiencesData"
+    >
+      <div class="card project-card">
+        <div class="card-body">
+          <h4 class="card-title">{{ project.title }}</h4>
+          <p class="card-subtitle mb-2 text-muted">{{ project.date }}</p>
+          <ul class="list-unstyled">
+            <li *ngFor="let bulletPoint of project.bulletPoints">{{ bulletPoint }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

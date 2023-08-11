@@ -1,0 +1,42 @@
+.title {
+  animation: bounce 1s both;
+}
+.project-card {
+  background-color: #f0f6fc;
+  border: none;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  animation: bounce 1s both;
+}
+
+.project-card:hover {
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project-card .card-body {
+  padding: 1.5rem;
+}
+
+.project-card .card-title {
+  font-size: 1.5rem;
+}
+
+.project-card .card-subtitle {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.project-card ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+
+.project-card ul li {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.project-card ul li:last-child {
+  margin-bottom: 0;
+}

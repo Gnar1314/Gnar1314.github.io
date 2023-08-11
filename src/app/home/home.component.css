@@ -1,0 +1,16 @@
+.photo-card {
+}
+
+.fadeInDown {
+  animation: fadeInDown 1s both;
+}
+.fadeInUp {
+  animation: fadeInUp 1s both;
+}
+.fadeInLeft{
+  animation: fadeInLeft 1s both;
+}
+.fadeInRight {
+  animation: fadeInRight 1s both;
+}
+

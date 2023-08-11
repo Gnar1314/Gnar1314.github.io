@@ -1,0 +1,9 @@
+<div class="container mt-4">
+  <h2 class="mb-4">Welcome to My Portfolio</h2>
+
+  <div class="row">
+    <div class="col-md-4 mb-4 photo-card {{getFadeIn(index)}}" *ngFor="let photo of photosData; let index = index">
+      <img src="{{ photo }}" alt="Photo" class="img-fluid photo-img rounded rounded-4" />
+    </div>
+  </div>
+</div>

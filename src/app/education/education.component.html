@@ -1,0 +1,21 @@
+<div class="container mt-4 bg-light">
+  <h2 class="mb-4">Education</h2>
+
+  <div class="row">
+    <div class="col-md-6 mb-4" *ngFor="let educationItem of educationData">
+      <div class="card">
+        <div class="card-header">
+          <h4>
+            <i class="fa fa-graduation-cap mr-2"></i>{{ educationItem.institution }}
+          </h4>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">{{ educationItem.degree }}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">GPA: {{ educationItem.gpa }}</h6>
+          <p class="card-text">{{ educationItem.duration }}</p>
+          <p class="card-text">{{ educationItem.courses }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

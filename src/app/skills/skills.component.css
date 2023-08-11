@@ -1,0 +1,24 @@
+.skill-card {
+  background-color: #ffffff;
+  border: none;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  height: 100%;
+  animation: fadeInUp 1s both;
+}
+
+.skill-card:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.skill-card:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.skill-card:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+
+
+
